@@ -1,9 +1,73 @@
+/* generics */
+
 * {
     margin: 0 auto;
     padding: 0;
-    border-style: border-box;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 body {
     font-family: 'Fredoka', sans-serif;
+}
+
+/* contenitore */
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    line-height: 125px;
+    font-size: larger;
+
+}
+
+h1 {
+    color: rgb(209, 82, 124);
+}
+
+/*  main content */
+p {
+    margin-bottom: 55px;
+}
+
+section>div {
+    display: inline-block;
+    background-color: #000;
+    width: calc(100% / 3 - 15px);
+    height: 85px;
+    margin: 6px;
+    text-align: left;
+    color: white;
+    line-height: 15px;
+}
+
+img {
+    width: 85px;
+    float: left;
+    margin-right: 5px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+span {
+    display: block;
+    text-align: left;
+    line-height: 6px;
+    margin-top: 16px;
 }
