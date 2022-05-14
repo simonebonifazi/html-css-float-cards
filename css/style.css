@@ -34,7 +34,7 @@ p {
 }
 
 section>div {
-    display: inline-block;
+    float: left;
     background-color: #000;
     width: calc(100% / 3 - 15px);
     height: 85px;
@@ -63,6 +63,7 @@ img {
 
 a {
     text-decoration: none;
+    color: aqua;
 }
 
 span {
